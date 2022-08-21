@@ -1,0 +1,45 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+#encabezado .navbar-brand{
+
+  height: 20px;
+  width: 150px;
+}
+
+.container{
+  scroll-margin-top: 7ex;
+  scroll-behavior: smooth;
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Tecnologia .image-top img{
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
